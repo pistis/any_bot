@@ -4,12 +4,18 @@
   "description": "any line bot",
   "main": "any.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "sudo /home/ubuntu/.nvm/versions/node/v6.9.1/bin/node src/any.js"
   },
   "keywords": [
-    "line",
-    "bot"
+    "line-bot",
+    "any-bot"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:pistis/any_bot.git"
+  },
+  "homepage": "https://github.com/pistis/any_bot.git#readme",
   "author": "beomhee, lee",
   "license": "ISC",
   "devDependencies": {
